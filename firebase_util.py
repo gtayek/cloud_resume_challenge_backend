@@ -16,7 +16,7 @@ def get_and_increment_visitor_counter():
     for row in query_results:
         previous_visitor_count=list(row.values())[0]
         return previous_visitor_count
-
+    return-1
 
 
 
